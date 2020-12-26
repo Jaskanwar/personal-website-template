@@ -1,0 +1,13 @@
+.contain {
+  margin-top: 25pt;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-card {
+  max-width: 75%;
+  background-color:#06d6a0ff;
+  text-align: center;
+}
