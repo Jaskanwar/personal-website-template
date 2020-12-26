@@ -3,66 +3,66 @@
 }
 
 .nav-toggler {
-	position: absolute;
-	display: block;
-	margin-left: 1rem;
-	left: 0;
-	width: 25px;
-	height: 40px;
-	transition: 0.3s ease;
+  position: absolute;
+  display: block;
+  margin-left: 1rem;
+  left: 0;
+  width: 25px;
+  height: 40px;
+  transition: 0.3s ease;
 }
 
 .nav-toggler span {
-	position: absolute;
-	display: block;
-	width: 100%;
-	left: 0;
-	height: 3px;
-	background-color: black;
-	transition: 0.3s ease;
-	transform-origin: center;
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  height: 3px;
+  background-color: black;
+  transition: 0.3s ease;
+  transform-origin: center;
 }
 
 .nav-toggler span:nth-child(1) {
-	top:26%;
+  top: 26%;
 }
 
 .nav-toggler span:nth-child(2) {
-	top: 50%;
-	transform: translateY(-50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .nav-toggler span:nth-child(3) {
-	top: 50%;
-	transform: translateY(-50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .nav-toggler span:nth-child(4) {
-	bottom: 26%;
+  bottom: 26%;
 }
 
 .nav-toggler.drawer-open span:nth-child(1) {
-	top:50%;
-	left: 50%;
-	width: 0%;
-	opacity: 0;
+  top: 50%;
+  left: 50%;
+  width: 0%;
+  opacity: 0;
 }
 
 .nav-toggler.drawer-open span:nth-child(2) {
-	top: 50%;
-	transform: translateY(-50%) rotate(-45deg);
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 .nav-toggler.drawer-open span:nth-child(3) {
-	top: 50%;
-	transform: translateY(-50%) rotate(45deg);
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .nav-toggler.drawer-open span:nth-child(4) {
-	bottom:50%;
-	left: 50%;
-	width: 0%;
-	opacity: 0;
+  bottom: 50%;
+  left: 50%;
+  width: 0%;
+  opacity: 0;
 }
 
 .navbar-brand.override {
@@ -75,14 +75,12 @@
 }
 
 @media screen and (min-width: 48rem) {
+  .nav-toggler,
+  .nav-toggler.open {
+    display: none;
+  }
 
-	.nav-toggler,
-	.nav-toggler.open {
-		display: none;
-	}
-
-	.navbar-brand.override {
-		margin: 0 1rem 0 0;
-	}
-
+  .navbar-brand.override {
+    margin: 0 1rem 0 0;
+  }
 }
