@@ -13,4 +13,55 @@ export class AppComponent {
   toggleDrawer(isDrawerOpen: boolean) {
     this.isDrawerOpen = isDrawerOpen;
   }
+  
+  imageObject: Array<object> = [{
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }
+  ]
 }
