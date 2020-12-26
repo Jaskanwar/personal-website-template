@@ -3,16 +3,16 @@
     white-space: nowrap;
     height:230pt;
     background-color:aquamarine;
-    vertical-align:middle;
-    align-content: center;
 }
 
 .images {
     position: relative;
     padding-left: 10pt;
     padding-right: 10pt;
-    height:157.5pt;
+    object-fit:contain;
+    height:100%;
     width:180pt;
+    vertical-align:middle;
 }
 
 .images:hover {
