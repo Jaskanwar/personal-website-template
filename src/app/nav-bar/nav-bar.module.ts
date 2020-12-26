@@ -6,8 +6,6 @@ import { NavBarComponent } from './nav-bar.component';
 @NgModule({
   declarations: [NavBarComponent, NavDrawerComponent],
   imports: [CommonModule],
-  exports: [
-    NavBarComponent
-  ]
+  exports: [NavBarComponent],
 })
 export class NavBarModule {}
