@@ -1,18 +1,23 @@
 .HList {
-  overflow: auto;
-  white-space: nowrap;
-  margin-top: 10pt;
+    overflow: auto;
+    white-space: nowrap;
+    height:230pt;
+    background-color:aquamarine;
+    vertical-align:middle;
+    align-content: center;
 }
 
 .images {
-  padding-left: 10pt;
-  padding-right: 10pt;
+    position: relative;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    height:157.5pt;
+    width:180pt;
 }
 
-#container {
-  background-color: #06d6a0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 50pt;
+.images:hover {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    height:230pt;
+    width:260pt;
 }
