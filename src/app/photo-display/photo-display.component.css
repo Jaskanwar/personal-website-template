@@ -1,23 +1,26 @@
 .HList {
-    overflow: auto;
-    white-space: nowrap;
-    height:230pt;
-    background-color:aquamarine;
-    vertical-align:middle;
-    align-content: center;
+  overflow: auto;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background-color: aquamarine;
+  text-align: center;
+  height: 230pt;
 }
 
 .images {
-    position: relative;
-    padding-left: 10pt;
-    padding-right: 10pt;
-    height:157.5pt;
-    width:180pt;
+  position: relative;
+  padding-left: 10pt;
+  padding-right: 10pt;
+
+  width: 180pt;
+  object-fit: contain;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .images:hover {
-    padding-left: 10pt;
-    padding-right: 10pt;
-    height:230pt;
-    width:260pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  height: 230pt;
+  width: 260pt;
 }
