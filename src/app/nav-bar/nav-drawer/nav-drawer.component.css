@@ -31,6 +31,7 @@
 .nav-link.override {
   text-decoration: none;
   color: inherit;
+  cursor: default;
 }
 
 .nav-item.override:active > .nav-link.override {

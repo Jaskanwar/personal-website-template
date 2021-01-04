@@ -1,26 +1,43 @@
-import { Component, HostBinding, Input, OnInit, Output, EventEmitter} from '@angular/core';
-
+import {
+  Component,
+  HostBinding,
+  Input,
+  OnInit,
+  Output,
+  EventEmitter,
+} from '@angular/core';
+import {
+  Router,
+  RouterModule,
+  Routes,
+  RoutesRecognized,
+} from '@angular/router';
 @Component({
   selector: 'nav-drawer',
   templateUrl: './nav-drawer.component.html',
-  styleUrls: ['./nav-drawer.component.css']
+  styleUrls: ['./nav-drawer.component.css'],
 })
 export class NavDrawerComponent implements OnInit {
-
   @Input()
   @HostBinding('class.drawer-open')
-  isDrawerOpen: boolean
+  isDrawerOpen: boolean;
 
   @Output()
   drawerToggleEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();
+  scroll: EventEmitter<any> = new EventEmitter();
+  constructor(private router: Router) {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
-  }
-
-  onNavLinkClicked($event: MouseEvent){
+  onNavLinkClicked($event: MouseEvent) {
     this.isDrawerOpen = false;
     this.drawerToggleEmitter.emit(this.isDrawerOpen);
+  }
+
+  routeAbout() {
+    this.router.navigate(['about']);
+  }
+  routeProject() {
+    this.router.navigate(['photo']);
   }
 }

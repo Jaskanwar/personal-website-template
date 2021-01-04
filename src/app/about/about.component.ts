@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, SystemJsNgModuleLoader } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
+  email = "example@gmail.com"
+  phone = "xxxxxxxxxx"
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

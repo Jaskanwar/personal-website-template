@@ -7,6 +7,8 @@ import {
   EventEmitter,
 } from '@angular/core';
 
+import { Router, RouterModule, Routes, RoutesRecognized } from '@angular/router';
+
 @Component({
   selector: 'nav-bar',
   templateUrl: './nav-bar.component.html',
@@ -20,7 +22,7 @@ export class NavBarComponent implements OnInit {
   @Output()
   drawerToggleEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.navElement = null;
@@ -50,5 +52,8 @@ export class NavBarComponent implements OnInit {
   toggleNavDrawer(isDrawerOpen: boolean) {
     this.isDrawerOpen = isDrawerOpen;
     this.drawerToggleEmitter.emit(this.isDrawerOpen);
+  }
+  routeStart(){
+    this.router.navigate(['photo']);
   }
 }
