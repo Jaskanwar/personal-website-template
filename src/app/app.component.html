@@ -5,9 +5,12 @@
       (drawerToggleEmitter)="toggleDrawer($event)"
     ></nav-bar>
     <main class="main-section">
-        <div class="photos">
+        <!-- <div class="photos">
           <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
-        </div>     
+        </div>      -->
+        <div class="photos">
+          <app-picture-panel></app-picture-panel>
+        </div>
     </main>
   </div>
 </div>

@@ -6,16 +6,19 @@ import { AppComponent } from './app.component';
 import { NavBarModule } from './nav-bar/nav-bar.module';
 
 import { NgImageSliderModule } from 'ng-image-slider';
+import { PicturePanelComponent } from './picture-panel/picture-panel.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    PicturePanelComponent,
   ],
   imports: [
     NgImageSliderModule,
     BrowserModule,
     AppRoutingModule,
-    NavBarModule
+    NavBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
