@@ -4,21 +4,26 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarModule } from './nav-bar/nav-bar.module';
+import { AboutComponent } from './about/about.component';
 
-import { NgImageSliderModule } from 'ng-image-slider';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import {ClipboardModule} from '@angular/cdk/clipboard';
 import { PicturePanelComponent } from './picture-panel/picture-panel.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     PicturePanelComponent,
+    AboutComponent
   ],
   imports: [
-    NgImageSliderModule,
     BrowserModule,
     AppRoutingModule,
     NavBarModule,
+    MatCardModule,
+    MatButtonModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
