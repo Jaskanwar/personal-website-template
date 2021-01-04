@@ -13,4 +13,56 @@ export class AppComponent {
   toggleDrawer(isDrawerOpen: boolean) {
     this.isDrawerOpen = isDrawerOpen;
   }
+
+  //images to be displayed in the horizontal list
+  imageObject: Array<object> = [{
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }, {
+      image: 'assets/pictures/test.jpg',
+      thumbImage: 'assets/pictures/test.jpg',
+    }
+  ]
 }
