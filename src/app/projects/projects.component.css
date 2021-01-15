@@ -1,0 +1,18 @@
+.row {
+  margin: 25pt;
+}
+
+.about-card {
+  background-color:#06d6a0ff;
+  text-align: center;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  margin: 25pt;
+}
+.header{
+  justify-content: center;
+  text-align: center;
+}
