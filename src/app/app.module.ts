@@ -10,12 +10,14 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import { PicturePanelComponent } from './picture-panel/picture-panel.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PicturePanelComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
