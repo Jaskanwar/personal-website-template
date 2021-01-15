@@ -34,10 +34,7 @@ export class NavDrawerComponent implements OnInit {
     this.drawerToggleEmitter.emit(this.isDrawerOpen);
   }
 
-  routeAbout() {
-    this.router.navigate(['about']);
-  }
-  routeProject() {
-    this.router.navigate(['photo']);
+  route(id) {
+    document.getElementById(id).scrollIntoView();
   }
 }

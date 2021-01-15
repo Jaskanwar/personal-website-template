@@ -53,7 +53,8 @@ export class NavBarComponent implements OnInit {
     this.isDrawerOpen = isDrawerOpen;
     this.drawerToggleEmitter.emit(this.isDrawerOpen);
   }
-  routeStart(){
-    this.router.navigate(['photo']);
+
+  route(id) {
+    document.getElementById(id).scrollIntoView();
   }
 }
