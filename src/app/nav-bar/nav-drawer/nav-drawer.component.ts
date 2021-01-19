@@ -37,4 +37,7 @@ export class NavDrawerComponent implements OnInit {
   route(id) {
     document.getElementById(id).scrollIntoView();
   }
+  displayResume(){
+    window.open('assets/resume/test.pdf', '_blank');
+  }
 }
