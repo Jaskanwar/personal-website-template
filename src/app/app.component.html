@@ -5,9 +5,15 @@
       (drawerToggleEmitter)="toggleDrawer($event)"
     ></nav-bar>
     <main class="main-section">
-      <div class="photos">
-        <app-picture-panel id="photo"></app-picture-panel>
+      <mat-grid-list cols = "2">
+        <mat-grid-tile>
+          <app-picture-panel id="photo"></app-picture-panel>
+        </mat-grid-tile>
+        <mat-grid-tile>
         <app-about id="about"></app-about>
+        </mat-grid-tile>
+      </mat-grid-list>
+      <div class = "projects">
         <app-projects></app-projects>
       </div>
     </main>

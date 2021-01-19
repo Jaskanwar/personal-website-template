@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import { PicturePanelComponent } from './picture-panel/picture-panel.component';
 import { ProjectsComponent } from './projects/projects.component';
+import {MatGridListModule} from "@angular/material/grid-list";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProjectsComponent } from './projects/projects.component';
     NavBarModule,
     MatCardModule,
     MatButtonModule,
-    ClipboardModule
+    ClipboardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
