@@ -29,7 +29,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
     MatCardModule,
     MatButtonModule,
     ClipboardModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
     MatGridListModule
   ],
   providers: [],
