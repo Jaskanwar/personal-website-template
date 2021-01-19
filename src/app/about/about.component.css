@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 .contain {
-  margin-top: 25pt;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -7,6 +10,7 @@
 }
 
 .about-card {
+  height:500pt;
   max-width: 75%;
   background-color:#06d6a0ff;
   text-align: center;

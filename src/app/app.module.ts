@@ -12,6 +12,8 @@ import {ClipboardModule} from '@angular/cdk/clipboard';
 import { PicturePanelComponent } from './picture-panel/picture-panel.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatGridListModule} from "@angular/material/grid-list";
+
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatButtonModule,
     ClipboardModule,
     BrowserAnimationsModule
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
