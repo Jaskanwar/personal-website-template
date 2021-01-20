@@ -4,13 +4,13 @@
       class="nav-bar"
       (drawerToggleEmitter)="toggleDrawer($event)"
     ></nav-bar>
-    <main class="main-section">
-      <mat-grid-list cols = "2">
+    <main class="main-section">   
+      <mat-grid-list cols = "2" rowHeight="1.25:1">
         <mat-grid-tile>
           <app-picture-panel id="photo"></app-picture-panel>
         </mat-grid-tile>
         <mat-grid-tile>
-        <app-about id="about"></app-about>
+          <app-about id="about"></app-about>
         </mat-grid-tile>
       </mat-grid-list>
       <div class = "projects">
