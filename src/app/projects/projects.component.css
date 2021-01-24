@@ -11,12 +11,13 @@
 .mainHeader{
   justify-content: center;
   text-align: center;
-  background-color: #8D94BA;
+  background-color: white;
   margin-left: 600pt;
   margin-right: 600pt;
   border-radius: 100pt;
   padding-top: 24pt;
   padding-bottom: 10pt;
+  box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.3);
 }
 
 h1{

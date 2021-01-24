@@ -88,9 +88,35 @@
     display: none;
   }
 }
-a:hover{
+
+#About:hover{
   background-color: lightgray;
   -moz-border-radius: 10px;
   -webkit-border-radius:10px;
   border-radius: 10px;
+}
+
+#Projects:hover{
+  background-color: lightgray;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  border-radius: 10px;
+}
+
+#Resume:hover{
+  background-color: lightgray;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  border-radius: 10px;
+}
+
+.git-icon{
+  padding-top: 2pt;
+  color: black;
+}
+
+.linked-icon{
+  padding-top: 1.5pt;
+  padding-right: 20pt;
+  color: black;
 }

@@ -14,6 +14,12 @@ import { ProjectsComponent } from './projects/projects.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from "@angular/material/grid-list";
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faFilm } from '@fortawesome/free-solid-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+
 
 @NgModule({
   declarations: [
@@ -30,9 +36,10 @@ import {MatGridListModule} from "@angular/material/grid-list";
     MatButtonModule,
     ClipboardModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

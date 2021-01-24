@@ -12,6 +12,7 @@ import {
   Routes,
   RoutesRecognized,
 } from '@angular/router';
+
 @Component({
   selector: 'nav-drawer',
   templateUrl: './nav-drawer.component.html',
@@ -35,9 +36,15 @@ export class NavDrawerComponent implements OnInit {
   }
 
   route(id) {
-    document.getElementById(id).scrollIntoView();
+    if(id === 'about'){
+      window.scroll(0,0);
+    }
+    else{
+      document.getElementById(id).scrollIntoView();
+    }
   }
+
   displayResume(){
-    window.open('assets/resume/test.pdf', '_blank');
+    window.open('assets/resume/Caleb-Sutherland-Resume.pdf', '_blank');
   }
 }
