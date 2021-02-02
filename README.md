@@ -1,5 +1,7 @@
 # PersonalWebsiteTemplate
 
+Simple website UI that can be simpily edited and be customized for your personal website needs!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
 ## Development server
